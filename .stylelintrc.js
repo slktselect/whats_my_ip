@@ -6,7 +6,7 @@ module.exports = {
         'stylelint-prettier/recommended',
     ],
     rules: {
-        'import-notation': 'string', // 使用string方式引入其它css文件，而不是url()  
+        'import-notation': 'string', // 使用string方式引入其它css文件，而不是url()
         'selector-type-no-unknown': null,
         'selector-class-pattern': null,
         'custom-property-pattern': null,
