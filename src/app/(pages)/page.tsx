@@ -1,11 +1,11 @@
 import { FC } from 'react';
 
-import { Tools } from '../_components/home/tools';
+import { IPDisplay } from '../_components/home/ip';
 
 const HomePage: FC = () => {
     return (
         <div className="tw-page-container">
-            <Tools />
+            <IPDisplay />
         </div>
     );
 };

@@ -1,0 +1,13 @@
+/* tools.module.css */
+
+.container {
+    @apply tw-text-center tw-mt-20; /* 居中和顶部间距 */
+}
+
+.title {
+    @apply tw-text-6xl tw-font-bold tw-text-white; /* 放大标题字体、加粗、白色 */
+}
+
+.text {
+    @apply tw-text-4xl tw-mt-6 tw-text-white; /* 放大正文字体、增加间距、白色 */
+}
