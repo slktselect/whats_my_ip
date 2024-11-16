@@ -10,7 +10,7 @@ export const IPDisplay: FC = () => {
     useEffect(() => {
         const fetchIP = async () => {
             try {
-                const response = await fetch('/json/');
+                const response = await fetch('/json');
                 const data = await response.json();
                 setIP(data.ip);
             } catch (error) {
